@@ -1,0 +1,7 @@
+conjunto = set()
+conjunto.add(1.0)
+conjunto.add(2.0)
+conjunto.add(1.0)
+conjunto.remove(2.0)
+print(conjunto)
+print(f"El conjunto {conjunto} tiene {len(conjunto)} elementos")
